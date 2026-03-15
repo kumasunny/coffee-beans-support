@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Beans Management - サポート</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #333; background: #fdf6f0; }
+    header { background: #6f4e37; color: white; padding: 24px 16px; text-align: center; }
+    header h1 { font-size: 22px; font-weight: bold; }
+    header p { font-size: 14px; margin-top: 6px; opacity: 0.85; }
+    nav { background: #5a3e2b; display: flex; justify-content: center; gap: 0; }
+    nav a { color: white; text-decoration: none; padding: 12px 24px; font-size: 14px; display: block; }
+    nav a:hover { background: rgba(255,255,255,0.1); }
+    .container { max-width: 720px; margin: 0 auto; padding: 32px 16px; }
+    .card { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+    h2 { font-size: 18px; color: #6f4e37; margin-bottom: 16px; border-bottom: 2px solid #f0e6dc; padding-bottom: 8px; }
+    h3 { font-size: 15px; font-weight: bold; margin: 16px 0 6px; }
+    p { font-size: 14px; line-height: 1.8; color: #555; }
+    ul { padding-left: 20px; }
+    ul li { font-size: 14px; line-height: 1.8; color: #555; }
+    .contact-box { background: #fdf6f0; border: 1px solid #e8d8cc; border-radius: 8px; padding: 16px; text-align: center; }
+    .contact-box a { color: #6f4e37; font-weight: bold; text-decoration: none; }
+    footer { text-align: center; padding: 24px; font-size: 12px; color: #999; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Coffee Beans Management</h1>
+    <p>コーヒー豆の購入・評価を記録するアプリ</p>
+  </header>
+  <nav>
+    <a href="index.html">サポート</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </nav>
+  <div class="container">
+    <div class="card">
+      <h2>よくある質問</h2>
+
+      <h3>Q. データはどこに保存されますか？</h3>
+      <p>サインインしていない場合は端末内にのみ保存されます。Apple・Google アカウントでサインインすると、クラウド（Firebase）にも保存され、機種変更時にデータを引き継ぐことができます。</p>
+
+      <h3>Q. 機種変更後にデータを引き継ぐには？</h3>
+      <p>新しい端末で同じ Apple または Google アカウントでサインインすると、クラウドからデータが自動的に復元されます。</p>
+
+      <h3>Q. サインインせずに使えますか？</h3>
+      <p>はい。サインインは任意です。サインインなしでもすべての機能をご利用いただけます。その場合、データは端末内にのみ保存されます。</p>
+
+      <h3>Q. 購入店舗はどうやって入力しますか？</h3>
+      <p>店舗名を入力すると Google マップの候補が表示されます。候補から選択するか、店舗名を直接入力してください。</p>
+
+      <h3>Q. データを削除するには？</h3>
+      <p>各コーヒー豆の詳細画面の削除ボタンから削除できます。アカウントおよびクラウド上のデータ削除をご希望の場合はお問い合わせください。</p>
+    </div>
+
+    <div class="card">
+      <h2>お問い合わせ</h2>
+      <p style="margin-bottom:16px;">ご不明な点やご要望はメールにてお問い合わせください。</p>
+      <div class="contact-box">
+        <a href="mailto:support@jokebear-technology.com">support@jokebear-technology.com</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 JokeBear Technology. All rights reserved.</p>
+  </footer>
+</body>
+</html>
